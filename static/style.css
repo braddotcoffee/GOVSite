@@ -1,0 +1,138 @@
+body{
+    background: rgb(255,255,255);
+    color: #404040;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 300px;
+}
+
+#header-text, .links, table{
+    margin: 0 auto;
+}
+
+.header{
+    /*background-image: url("http://www.clipartsfree.net/vector/large/14260-berlin-skyline-vector.png");*/
+    background-position: center center;
+    /*background-color: #BFBFBF;*/
+    background-size: cover;
+    padding-top: 3px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#header-text {
+    /* Fonts Tweaks */ 
+    font-weight: 100;
+    font-size: 36px;
+    font-family: 'Trirong', serif;
+
+    /* Alignment */
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 600px;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 400px;
+
+    /* Background */
+    background-color: rgb(74,217,217);
+    /*opacity: 0.5;*/
+    /*z-index: 0;*/
+
+    /* Color */
+    color: rgb(255,255,255);
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 0.5em;
+    font-family: 'Trirong', serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 25px;
+    background: rgb(245,165,3);
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 1em;
+}
+p {
+   /* color: #262626;*/
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.focused{
+  box-shadow: 0 10px 50px rgba(0, 0, 0, .08);
+  transform: scale(1.05);
+}
+table {
+    width: 50%;
+    border: 1px solid #7F7F7F;
+    border-collapse: collapse;
+    
+}
+
+td {
+    font-size: 32px;
+    border: 1px solid #7F7F7F;
+    border-collapse: collapse;
+    height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#tbl {
+    padding-bottom: 2em;
+}
+
+.num{
+    letter-spacing: 0.1em;
+}
+
+.intense {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.links {
+    display: block;
+    text-align: center;
+}
+
+.col {
+    padding-left: 2em;
+    padding-right: 2em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -moz-margin-before: 0;
+    -moz-margin-after: 0;
+    -webkit-columns: 2 150;
+    -moz-columns: 2 150px;
+    columns: 2 150px;
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;
+}
+.container.start {
+  opacity: 1;
+  -webkit-transition: opacity 2s ease-in;
+  -moz-transition: opacity 2s ease-in;
+  -ms-transition: opacity 2s ease-in;
+  -o-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
+
+.container {
+  opacity: 0;
+}
