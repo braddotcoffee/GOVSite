@@ -10,6 +10,8 @@ app.use(function(req, res, next){
 })
 
 app.use(express.static(path.join(__dirname, "static")));
+app.use("/node_modules", express.static(path.join(__dirname, "node_modules")))
+app.use("/slides", express.static(path.join(__dirname, "slides")))
 
 app.get("/", function(req, res){
   res.sendFile(path.join(__dirname, "fact-sheet.html"));

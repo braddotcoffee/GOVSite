@@ -10,10 +10,6 @@ function isElementInViewport(elem) {
 
   // Get the position of the element on the page.
   var elemTop = Math.round( $elem.offset().top );
-  console.log("ELEMTOP:")
-  console.log(elemTop);
-  console.log('VIEWPORTBOTTOM:')
-  console.log(viewportBottom)
   var elemBottom = elemTop + $elem.height();
 
   return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
@@ -21,7 +17,7 @@ function isElementInViewport(elem) {
 
 // Check if it's time to start the animation.
 function checkAnimation() {
-  var $elem = $('.container');
+  var $elem = $('.con');
 
   $elem.each(function(i, val){
     // If the animation has already been started //
@@ -30,8 +26,6 @@ function checkAnimation() {
     if (isElementInViewport($e)) {
       // Start the animation
       $e.addClass('start');
-      console.log(i)
-      console.log($e)
     }else {
       $e.removeClass("start");
     }
