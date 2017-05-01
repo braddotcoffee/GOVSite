@@ -184,6 +184,15 @@ ol.carousel-indicators {
   height: 700px;
 }
 
+.carousel-caption {
+  bottom: 19em !important;
+  z-index: 2 !important;
+  color: rgb(0,0,0);
+}
+.carousel-inner {
+  overflow: visible;
+}
+
 .item img {
   height: 60%;
   width: 60%;
