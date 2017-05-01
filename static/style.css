@@ -9,7 +9,7 @@ body{
 }
 
 #header-text h1, .links, table{
-    margin: 0 auto !important;
+    margin: 200px auto !important;
 }
 
 .header{
@@ -29,14 +29,14 @@ body{
     font-family: 'Trirong', serif;
 
     /* Alignment */
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 1em;
     padding-bottom: 1em;
     width: 600px !important;
     text-align: center;
-    margin-top: 300px !important;
-    margin-bottom: 400px !important;
+    margin-top: 100px !important;
+    margin-bottom: 200px !important;
 
     /* Background */
     background: rgb(74,217,217);
@@ -57,6 +57,18 @@ h2 {
     margin-top: 25px;
     background: rgb(54,177,191);
     color: rgb(255,255,255);
+    text-align: center;
+}
+h3 {
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: 0.5em;
+    font-family: 'Trirong', serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 25px;
+    /*background: rgb(54,177,191);
+    color: rgb(255,255,255);*/
     text-align: center;
 }
 
